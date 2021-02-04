@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/esroleo/professional-readme-generator/issues"
   },
-  "homepage": "https://github.com/esroleo/professional-readme-generator#readme"
+  "homepage": "https://github.com/esroleo/professional-readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
 }
