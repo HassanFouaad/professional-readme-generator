@@ -3,7 +3,7 @@ const inquirer = require('inquirer'); // prompt generator
 // imported module generateReadMe file to be then written by the utils 
 const generateReadMe =  require('./src/readme-template.js'); 
 // imported module writeFile to write to dist or distribution folder.
-const {writeFile} = require('./utils/generate-site.js');
+const {writeFile} = require('./utils/generate-readme-md.js');
 
 
 
@@ -86,6 +86,57 @@ const promptUser = () => {
     ]);
 }
 
+// const testData = 
+// {
+//   name: 'Lernantino',
+//   github: 'lernantino',
+//   confirmAbout: true,
+//   about:
+//      'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et.',
+//   projects: [
+//     {
+//       name: 'Run Buddy',
+//       description:
+//         'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et. Nam fringilla elit dapibus pellentesque cursus.',
+//       languages: ['HTML', 'CSS'],
+//       link: 'https://github.com/lernantino/run-buddy',
+//       feature: true,
+//       confirmAddProject: true
+//     },
+//     {
+//       name: 'Taskinator',
+//       description:
+//         'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et. Nam fringilla elit dapibus pellentesque cursus.',
+//       languages: ['JavaScript', 'HTML', 'CSS'],
+//       link: 'https://github.com/lernantino/taskinator',
+//       feature: true,
+//       confirmAddProject: true
+//     },
+//     {
+//       name: 'Taskmaster Pro',
+//       description:
+//         'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et. Nam fringilla elit dapibus pellentesque cursus.',
+//       languages: ['JavaScript', 'jQuery', 'CSS', 'HTML', 'Bootstrap'],
+//       link: 'https://github.com/lernantino/taskmaster-pro',
+//       feature: false,
+//       confirmAddProject: true
+//     },
+//     {
+//       name: 'Robot Gladiators',
+//       description:
+//         'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque.',
+//       languages: ['JavaScript'],
+//       link: 'https://github.com/lernantino/robot-gladiators',
+//       feature: false,
+//       confirmAddProject: false
+//     }
+//   ]
+// };
+
+
+// const pageHTML = generatePage(mockData);
+
+
 promptUser()
     .then(answers => {
         return generateReadMe(answers);
@@ -94,7 +145,7 @@ promptUser()
         //console.log(readmeFile);
         return writeFile(readmeFile)
     })
-    
     .catch(err => {
     console.log(err);
     });
+
