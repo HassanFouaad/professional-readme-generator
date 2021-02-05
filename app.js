@@ -1,7 +1,9 @@
 const fs = require('fs'); // file system handling
 const inquirer = require('inquirer'); // prompt generator
-// generateReadMe file to be then written by the utils
+// imported module generateReadMe file to be then written by the utils 
 const generateReadMe =  require('./src/readme-template.js'); 
+// imported module writeFile to write to dist or distribution folder.
+const {writeFile} = require('./utils/generate-site.js');
 
 
 
@@ -89,8 +91,10 @@ promptUser()
         return generateReadMe(answers);
     })
     .then(readmeFile => {
-        console.log(readmeFile);
+        //console.log(readmeFile);
+        return writeFile(readmeFile)
     })
+    
     .catch(err => {
     console.log(err);
     });
