@@ -84,41 +84,15 @@ const promptProjectTips = readMeAnswers => {
     return inquirer.prompt([
 
         {
-            type: 'confirm',
-            name: 'usageTips',
-            message: 'Would you like to add tips on how to use your project?',
-            default: false
-        },
-        {
             type: 'input',
             name: 'addTip',
             message: 'Provide a description on how to achieve a the step/tip',
-            when: ({ usageTips }) => {
-              if (usageTips) {
-                return true;
-              } else {
-                return false;
-              }
-            }
           },
-        {
-            type: 'confirm',
-            name: 'usageTipsPicture',
-            message: 'Would you like to add picture for this usage tip?',
-            default: false
-        },
         {
             type: 'input',
             name: 'addPicture',
-            message: 'Please provide name of the picture',
-            when: ({ usageTipsPicture }) => {
-              if (usageTipsPicture) {
-                return true;
-              } else {
-                return false;
-              }
-            }
-          },
+            message: 'Provide a snapshot name of step if applicable?',
+        },
           {
             type: 'confirm',
             name: 'tipConfirmation',

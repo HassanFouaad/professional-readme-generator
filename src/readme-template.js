@@ -13,16 +13,39 @@
     commandTest: 'Test',
     contrDesc: 'Test'
   }
+
+    projects: [
+    { addTip: 'test', addPicture: 'test', tipConfirmation: true },
+    { addTip: 'test1234', addPicture: '', tipConfirmation: false }
 */
 const generateReadMe = templateData => {
 
-    const {projectTitle, desc, webAddress,
-        usageTips, usageTipsPicture, featuresGif, credits, 
-        licenses, commandInstall , commandTest, contrDesc } = templateData;
+    // const {projectTitle, desc, webAddress,
+    //     featuresGif, credits, licenses, commandInstall , commandTest, contrDesc, ...tips } = templateData;
 
-        console.log(templateData);
+    const {projectTitle, desc, webAddress,
+        featuresGif, credits, licenses, commandInstall , commandTest, contrDesc, projects } = templateData;
+
+        //console.log(templateData);
+        //console.log(tips);
+
+     const genereateTips = tips => {
+
+        return `
+          ${tips
+            .filter(({ tipConfirmation }) => tipConfirmation)
+            .map(({ addTip, addPicture }) => {
+              return `
+              ${addTip}
+              ${addPicture}
+              `;
+            })
+            .join('')}
+             `;
+            }
     
     return `
+
 ## ${projectTitle}
 
 1. [ Description. ](#desc)
@@ -73,14 +96,7 @@ ${webAddress}
 
 <a name="usage"></a>
 ## 3. Usage Tips
-
-### Testing the application
-
-### Please log in using our Login Button
-### Once on the log in page, login by using a name and a password.
-### At the end of your password, please ensure to add "-" then the value of your age. Example: "password-30" to reflect the age of a thirty year old.
-
-![nav-menu](./assets/images/Login-Page-Button.JPG?raw=true "Login-Page-Button")
+${genereateTips(projects)}
 
 <a name="features"></a>
 ## 4. Features
