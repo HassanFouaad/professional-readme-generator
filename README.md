@@ -1,10 +1,5 @@
-# professional-readme-generator
-Professional README Generator
 
-![caption](./assets/images/new-tab.gif)
-## Project1-Group07: COVID Positivity Web Page
-
-## Password generator
+## Professional README.MD generator
 
 1. [ Description. ](#desc)
 2. [ Web Address. ](#web-address)
@@ -19,7 +14,7 @@ Professional README Generator
 <a name="desc"></a>
 ## 1. Description
 
-### Generate a file
+### This project was created in order to help any user create a professional README.md file.
 
 
 Desktop screen > 1298x:
@@ -28,7 +23,7 @@ Desktop screen > 1298x:
 
 Smaller screen Tablets 768px:
 
-![Top-Page-Area](./assets/images/Landing-Page-Ipad.JPG?raw=true "Landing-Page-Ipad")      
+![Top-Page-Area](./assets/images/Landing-Page-Ipad.JPG?raw=true "Landing-Page-Ipad")
 
 ![Top-Page-Area](./assets/images/Landing-Page-Ipad-Menu.JPG?raw=true "Landing-Page-Ipad-Menu")
 
@@ -50,7 +45,7 @@ Smaller Screen Smart Phones:
 
 ### Open your favorite web browser and enter the following web address to access.
 
-www.google.com
+https://github.com/esroleo/professional-readme-generator
 
 <a name="usage"></a>
 ## 3. Usage Tips
@@ -65,19 +60,19 @@ www.google.com
 
 <a name="features"></a>
 ## 4. Features
-### Make sure your gifs are at ./assets/images/
+### Make sure your gif is at ./assets/images/
 
 ![caption](./assets/images/new-tab.gif)
 
 <a name="credits"></a>
 ## 5. Credits
 
-Thank you for using my app
+Thanks for the support at Uoft Full Stack Developer bootcamp May, 2021.
 
 <a name="licenses"></a>
 ## 6. Licenses
 
-afl-3.0, artistic-2.0, bsd-2-clause, bsd-3-clause, bsd-3-clause-clear, cc, cc0-1.0, cc-by-4.0, cc-by-sa-4.0, wtfpl, ecl-2.0
+mit
 
 <a name="commandInstall"></a>
 ## 7. Install Command
@@ -92,5 +87,5 @@ node app test
 <a name="contributing"></a>
 ## 9. Contributing
 
-email me at esroleo@gmail.com
+Please email Esteban Romero - esroleo@gmail.com
 
