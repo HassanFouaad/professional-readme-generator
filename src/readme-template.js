@@ -1,4 +1,14 @@
-
+// Incoming templateData sample
+// {
+//     github: 'Test',
+//     email: 'Test',
+//     description: 'Test',
+//     licenses: [ 'afl-3.0', 'apache-2.0', 'artistic-2.0', 'bsl-1.0' ],
+//     commandInstall: 'Test',
+//     commandTest: 'Test',
+//     repoDesc: 'Test',
+//     contrDesc: 'Test'
+// }
 
 const generateReadMe = templateData => {
 
@@ -15,8 +25,12 @@ const generateReadMe = templateData => {
         1. [ Description. ](#desc)
         2. [ Web Address. ](#web-address)
         3. [ Usage tips. ](#usage)
-        4. [ Contributing. ](#contributing)
-        5. [ License. ](#license)
+        4. [ Features. ](#features)
+        5. [ Credits. ](#credits)
+        6. [ Licenses. ](#licenses)
+        7. [ Install Command. ](#commandInstall)
+        8. [ Test Command](#commandTest)
+        9. [ Contributing. ](#contributing)
 
         <a name="desc"></a>
         ## 1. Description
@@ -65,87 +79,30 @@ const generateReadMe = templateData => {
 
         ![nav-menu](./assets/images/Login-Page-Button.JPG?raw=true "Login-Page-Button")
 
-        ![nav-menu](./assets/images/Login-Page-Landing.JPG?raw=true "Login-Page-Landing")
+        <a name="features"></a>
+        ## 4. Features
 
-        ![nav-menu](./assets/images/Login-Page-Modal.JPG?raw=true "Login-Page-Modal")
+        ![caption](./assets/images/new-tab.gif)
 
+        <a name="credits"></a>
+        ## 5. Credits
 
+        <a name="licenses"></a>
+        ## 6. Licenses
 
-        #### Please note that full map functionality will be added in the future e.g Node.js
-        #### Accept GeoLocation cookie to see the map results output. 
-        #### Results are 5 KM radius, with furthest showing first.This feature will be improved in the future.
+        <a name="commandInstall"></a>
+        ## 7. Install Command
 
-        ![nav-menu](./assets/images/Landing-Page-Functionality-Map-Container.JPG?raw=true "Landing-Page-Functionality-Map-Container")
-
-        ### Choose a Video to watch
-
-        ![nav-menu](./assets/images/Landing-Page-Functionality-Choose-Video.JPG?raw=true "Landing-Page-Functionality-Choose-Video")
-
-        ### Choose a website to visit
-
-        ![nav-menu](./assets/images/Landing-Page-Functionality-Choose-Website.JPG?raw=true "Landing-Page-Functionality-Choose-Website")
-
-        ### Choose a Joke or Inspiration from our containers
-
-        ![nav-menu](./assets/images/Landing-Page-Functionality-Choose-Joke-Inspiration.JPG?raw=true "Landing-Page-Functionality-Choose-Joke-Inspiration")
-
-        ### Please note that full chat functionality will be added in the future e.g Node.js
-        ### Connect with people by chatting with other fellow diagnosed people.
-
-        ![nav-menu](./assets/images/Landing-Page-Functionality-Chat-Container.JPG?raw=true "Landing-Page-Functionality-Chat-Container")
-
-        ### Please visit our COVID positive statistics, choose a province to see the results
-
-        ![nav-menu](./assets/images/Landing-Page-Functionality-COVID-Positive-Statistics.JPG?raw=true "Landing-Page-Functionality-COVID-Positive-Statistics")
-
-        ### Visit our personal care to explore the supporting documentation available
-        ### Choose when you think you contracted COVID in order to receive detailed information
-
-        ![nav-menu](./assets/images/Personal-Page-Button.JPG?raw=true "Personal-Page-Button")
-
-        ![nav-menu](./assets/images/Personal-Page.JPG?raw=true "Personal-Page")
-
-        ![nav-menu](./assets/images/Personal-Page-Date-Picker.JPG?raw=true "Personal-Page-Date-Picker")
-
-        ![nav-menu](./assets/images/Personal-Page-Date-Picker-Progression.JPG?raw=true "Personal-Page-Date-Picker-Progression")
-
-        ### Symptoms information
-
-        ![nav-menu](./assets/images/Personal-Page-Support-Information.JPG?raw=true "Personal-Page-Support-Information")
-
-        ![nav-menu](./assets/images/Personal-Page-Support-Information-Symptoms-Modal.JPG?raw=true "Personal-Page-Support-Information-Symptoms-Modal")
-
-        ### Govement Funding Information
-
-        ![nav-menu](./assets/images/Personal-Page-Goverment-Funding-Cards.JPG?raw=true "Personal-Page-Goverment-Funding-Cards")
-
-
-        ### Please note that full Blogger functionality will be added in the future e.g Node.js
-
-        ![nav-menu](./assets/images/Personal-Page-Forum-Logger.JPG?raw=true "Personal-Page-Forum-Logger")
-
+        <a name="commandTest"></a>
+        ## 8. Test Command
 
         <a name="contributing"></a>
-        ## 4. Contributing
-        Pull requests are welcome. For major changes, please let repository owner know to discuss what would you like to change.
-
-        <a name="license"></a>
+        ## 9. Contributing
 
         `;
-
 };
 
-// Incoming templateData sample
-// {
-//     github: 'Test',
-//     email: 'Test',
-//     description: 'Test',
-//     licenses: [ 'afl-3.0', 'apache-2.0', 'artistic-2.0', 'bsl-1.0' ],
-//     commandInstall: 'Test',
-//     commandTest: 'Test',
-//     repoDesc: 'Test',
-//     contrDesc: 'Test'
-// }
+
 
 
 module.exports = templateData => {

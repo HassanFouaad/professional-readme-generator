@@ -1,0 +1,25 @@
+// Incoming templateData sample
+// {
+	   title:
+	   description: 'Test',
+	   picturesQuestionBig: Would you like to include a .JPG of landing page > 1298px
+	   ifYes: please include relative path
+	   picturesQuestionTablet: Would you like to include a .JPG of landing page @ 798px
+	   ifYes: please include relative
+	   picturesQuestionSmartPhone: Would you like to include a .JPG of landing page @ ~375-414px
+//     githubLink: 'Test',
+	   testApplication: How many steps would you like to include for your application? Input =3
+	   picturesTestSteps: provide relative path of picture? e.g ./assets/images/<picure>.JPG
+	   anotherpicture: Would you like to add another picture for your steps ? y/N
+	   Ifyes: another picture
+	   testAppVideo: include relative path with .gif extention e.g /assets/images/<gi>.gif
+	   video will be added to a features sections.
+//  
+//     credits:
+//     licenses: [ 'afl-3.0', 'apache-2.0', 'artistic-2.0', 'bsl-1.0' ],
+//     commandInstall: 'Test',
+//     commandTest: 'Test',
+//     repoDesc: 'Test',
+//     contrDesc: Please contact my email for contributions.
+		
+// }
