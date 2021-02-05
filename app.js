@@ -39,6 +39,27 @@ const promptUser = () => {
             message: 'Please enter your deployed application URL if available',
           },
           {
+            type: 'input',
+            name: 'usageTips',
+            message: 'Tips to use your application if availalbe'
+          },
+          {
+            type: 'confirm',
+            name: 'usageTipsPicture',
+            message: 'Would you like to add picture for this usage tip?',
+            default: false
+          },
+          {
+            type: 'input',
+            name: 'featuresGif',
+            message: 'Please include a gif video (use name of gif) showcasing all your features if applicable? e.g new-feature',
+          },
+          {
+            type: 'input',
+            name: 'credits',
+            message: 'Include credits if applicable'
+          },
+          {
             type: 'checkbox',
             name: 'licenses',
             message: 'What kind of license should your project have? (Check all that apply)',
@@ -54,11 +75,6 @@ const promptUser = () => {
             type: 'input',
             name: 'commandTest',
             message: 'What command should be run to run tests?'
-          },
-          {
-            type: 'input',
-            name: 'repoDesc',
-            message: 'What does the user need to know about using the repo?'
           },
           {
             type: 'input',
