@@ -42,17 +42,6 @@ const promptUser = () => {
           },
           {
             type: 'input',
-            name: 'usageTips',
-            message: 'Tips to use your application if availalbe'
-          },
-          {
-            type: 'confirm',
-            name: 'usageTipsPicture',
-            message: 'Would you like to add picture for this usage tip?',
-            default: false
-          },
-          {
-            type: 'input',
             name: 'featuresGif',
             message: 'Please include a gif video (use name of gif) showcasing all your features if applicable? e.g new-feature',
           },
@@ -85,6 +74,68 @@ const promptUser = () => {
           }
     ]);
 }
+
+const promptProjectTips = readMeAnswers => {
+      // If there's no 'projects' array property, create one
+     if (!readMeAnswers.projects) {
+        readMeAnswers.projects = [];
+     }
+
+    return inquirer.prompt([
+
+        {
+            type: 'confirm',
+            name: 'usageTips',
+            message: 'Would you like to add tips on how to use your project?',
+            default: false
+        },
+        {
+            type: 'input',
+            name: 'addTip',
+            message: 'Provide a description on how to achieve a the step/tip',
+            when: ({ usageTips }) => {
+              if (usageTips) {
+                return true;
+              } else {
+                return false;
+              }
+            }
+          },
+        {
+            type: 'confirm',
+            name: 'usageTipsPicture',
+            message: 'Would you like to add picture for this usage tip?',
+            default: false
+        },
+        {
+            type: 'input',
+            name: 'addPicture',
+            message: 'Please provide name of the picture',
+            when: ({ usageTipsPicture }) => {
+              if (usageTipsPicture) {
+                return true;
+              } else {
+                return false;
+              }
+            }
+          },
+          {
+            type: 'confirm',
+            name: 'tipConfirmation',
+            message: 'Would you like to add any other tips to your project?',
+            default: false
+        },
+    ]).then(projectData => {
+        readMeAnswers.projects.push(projectData);
+        if (projectData.tipConfirmation) {
+          return promptProjectTips(readMeAnswers);
+        } else {
+          return readMeAnswers;
+        }
+      });
+};
+
+
 
 // const testData = 
 // {
@@ -138,7 +189,9 @@ const promptUser = () => {
 
 
 promptUser()
+    .then(promptProjectTips)
     .then(answers => {
+        //console.log(answers)
         return generateReadMe(answers);
     })
     .then(readmeFile => {
