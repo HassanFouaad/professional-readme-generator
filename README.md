@@ -1,4 +1,4 @@
 # professional-readme-generator
 Professional README Generator
 
-![caption](./assets/images/new-tab)
+![caption](./assets/images/new-tab.gif)
