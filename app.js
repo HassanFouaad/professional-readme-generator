@@ -9,42 +9,34 @@ const promptUser = () => {
     return inquirer.prompt([
         {
             type: 'input',
-            name: 'github',
-            message: 'What is your GitHub username? (Required)',
-            validate: githubInput => {
-              if (githubInput) {
+            name: 'projectTitle',
+            message: 'What is your project Title?  e.g Professional README.md generator (Required)',
+            validate: projectTitleInput => {
+              if (projectTitleInput) {
                 return true;
               } else {
-                console.log('Please enter your GitHub username!');
+                console.log('Please enter your Project Title');
                 return false;
               }
             }
           },
           {
             type: 'input',
-            name: 'email',
-            message: 'What is yoru email address (Required)',
-            validate: emailInput => {
-              if (emailInput) {
+            name: 'desc',
+            message: 'What is your project description (Required)',
+            validate: descInput => {
+              if (descInput) {
                 return true;
               } else {
-                console.log('Please enter your email address');
+                console.log('Please enter your Project Description');
                 return false;
               }
             }
           },
           {
             type: 'input',
-            name: 'description',
-            message: 'Please write a short description of your project (Required)',
-            validate: descriptionInput => {
-              if (descriptionInput) {
-                return true;
-              } else {
-                console.log('Please enter your email address');
-                return false;
-              }
-            }
+            name: 'webAddress',
+            message: 'Please enter your deployed application URL if available',
           },
           {
             type: 'checkbox',
