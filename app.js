@@ -1,5 +1,8 @@
 const fs = require('fs'); // file system handling
 const inquirer = require('inquirer'); // prompt generator
+// generateReadMe file to be then written by the utils
+const generateReadMe =  require('./src/readme-template.js'); 
+
 
 
 const promptUser = () => {
@@ -74,7 +77,12 @@ const promptUser = () => {
 }
 
 promptUser()
-    .then()
+    .then(answers => {
+        return generateReadMe(answers);
+    })
+    .then(readmeFile => {
+        console.log(readmeFile);
+    })
     .catch(err => {
     console.log(err);
     });
