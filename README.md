@@ -1,6 +1,6 @@
 
 
-## Professional READEME.md generator ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+## Professional READEME.md generator
 
 1. [ Description. ](#desc)
 2. [ Web Address. ](#web-address)
