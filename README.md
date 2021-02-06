@@ -1,6 +1,6 @@
 
 
-## Title
+## Professional READEME.md generator
 
 1. [ Description. ](#desc)
 2. [ Web Address. ](#web-address)
@@ -15,7 +15,7 @@
 <a name="desc"></a>
 ## 1. Description
 
-line 1 \s\s line 2 \s\s
+This project will allow you to generate a README.md file
 
 
 
@@ -24,47 +24,51 @@ line 1 \s\s line 2 \s\s
 
 ### Open your favorite web browser and enter the following web address to access.
 
-test
+https://github.com/esroleo/professional-readme-generator/issues/11
 
 <a name="usage"></a>
 ## 3. Usage Tips
 
 
-###test
+### Step 1
 ![test](./assets/images/test.JPG?raw=true "test")
 
+### Step 2
+![test](./assets/images/test.JPG?raw=true "test")
 
+### step 3
 
+![test](./assets/images/test.JPG?raw=true "test")
 
 
 <a name="features"></a>
 ## 4. Features
 ### Make sure your gif is at ./assets/images/
 
-![caption](./assets/images/test.gif)
+![caption](./assets/images/readme-gen-gif.gif)
 
 <a name="credits"></a>
 ## 5. Credits
 
-
+Thank you Esteban for working on this project
 
 <a name="licenses"></a>
 ## 6. Licenses
 
-afl-3.0, apache-2.0, artistic-2.0, bsl-1.0, bsd-2-clause
+mit
 
 <a name="commandInstall"></a>
 ## 7. Install Command
 
-test
+npm i inquirer
 
 <a name="commandTest"></a>
 ## 8. Test Command
 
-test
+node app.js test
 
 <a name="contributing"></a>
 ## 9. Contributing
 
-test
+Visit and enjoy.
 
