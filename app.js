@@ -11,6 +11,16 @@ const promptUser = () => {
     return inquirer.prompt([
         {
             type: 'input',
+            name: 'gitHubUser',
+            message: 'Please enter your GitHub username',
+        },
+        {
+            type: 'input',
+            name: 'emailAddress',
+            message: 'Please enter your email address',
+        },
+        {
+            type: 'input',
             name: 'projectTitle',
             message: 'What is your project Title?  e.g Professional README.md generator (Required)',
             validate: projectTitleInput => {
