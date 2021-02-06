@@ -30,13 +30,13 @@ https://github.com/esroleo/professional-readme-generator/issues/11
 ## 3. Usage Tips
 
 
-###Step 1
+### Step 1
 ![test](./assets/images/test.JPG?raw=true "test")
 
-###Step 2
+### Step 2
 ![test](./assets/images/test.JPG?raw=true "test")
 
-###step 3
+### step 3
 
 ![test](./assets/images/test.JPG?raw=true "test")
 
