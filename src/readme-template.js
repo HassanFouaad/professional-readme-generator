@@ -85,29 +85,7 @@ ${tips
 <a name="desc"></a>
 ## 1. Description
 
-### ${desc}
-
-
-Desktop screen > 1298x:
-
-![Top-Page-Area](./assets/images/Landing-Page-Large-Updated.JPG?raw=true "Landing-Page-Large")
-
-Smaller screen Tablets 768px:
-
-![Top-Page-Area](./assets/images/Landing-Page-Ipad.JPG?raw=true "Landing-Page-Ipad")
-
-![Top-Page-Area](./assets/images/Landing-Page-Ipad-Menu.JPG?raw=true "Landing-Page-Ipad-Menu")
-
-
-Smaller Screen Smart Phones:
-
-![Top-Page-Area](./assets/images/Landing-Page-Smaller1.JPG?raw=true "landing-page-desktip-smartPhones-1")
-
-![Top-Page-Area](./assets/images/Landing-Page-Smaller-Menu.JPG?raw=true "landing-page-desktip-smartPhones-2")
-
-![Top-Page-Area](./assets/images/Landing-Page-Smaller3.JPG?raw=true "landing-page-desktip-smartPhones-3")
-
-![Top-Page-Area](./assets/images/Landing-Page-Smaller4.JPG?raw=true "landing-page-desktip-smartPhones-4")
+${desc}
 
 
 
