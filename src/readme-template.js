@@ -23,14 +23,15 @@ const generateReadMe = templateData => {
     // const {projectTitle, desc, webAddress,
     //     featuresGif, credits, licenses, commandInstall , commandTest, contrDesc, ...tips } = templateData;
 
+    
     const {projectTitle, desc, webAddress,
         featuresGif, credits, licenses, commandInstall , commandTest, contrDesc, projects } = templateData;
 
-        //console.log(templateData);
+       // console.log(templateData);
         //console.log(tips);
 
      const genereateTips = tips => {
-         console.log(tips)
+        // console.log(tips)
 
 return `
 ${tips
@@ -41,15 +42,16 @@ return `
 ![${addPicture}](./assets/images/${addPicture}.JPG?raw=true "${addPicture}")
 `;
 })
-}
+.join('')}
+
 ${tips
 .filter(({ addTip, addPicture }) => addTip && !addPicture)
 .map(({ addTip }) => {
 return `
-###${addTip}
+${addTip}
 `;
 })
-}
+.join('')}
 ${tips
 .filter(({ addTip, addPicture }) => !addTip && addPicture)
 .map(({ addPicture }) => {
@@ -57,12 +59,12 @@ return `
 ![${addPicture}](./assets/images/${addPicture}.JPG?raw=true "${addPicture}")
 `;
 })
-}
+.join('')}
 ${tips
 .filter(({ addTip, addPicture }) => !addTip && !addPicture)
 .map(({ addTip,addPicture }) => {
 })
-}
+.join('')}
 `;
 }
          

@@ -109,63 +109,45 @@ const promptProjectTips = readMeAnswers => {
       });
 };
 
+// *** Test Data *** //
+
+const testData = 
+{
+    projectTitle: 'Test Title',
+    desc: 'Test Description',
+    webAddress: 'https://github.com/esroleo/professional-readme-generator',
+    featuresGif: 'new-tab',
+    credits: 'Thanks Esteban Romero for working on this project.',
+    licenses: [ 'mit' ],
+    commandInstall: 'npm i',
+    commandTest: 'node app.js test',
+    contrDesc: 'email Esteban Romero - esroleo@gmail.com',
+    projects: [
+      {
+        addTip: 'test step 1',
+        addPicture: 'test',
+        tipConfirmation: true
+      },
+      {
+        addTip: 'test step 2',
+        addPicture: 'test',
+        tipConfirmation: false
+      }
+    ]
+  };
 
 
-// const testData = 
-// {
-//   name: 'Lernantino',
-//   github: 'lernantino',
-//   confirmAbout: true,
-//   about:
-//      'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et.',
-//   projects: [
-//     {
-//       name: 'Run Buddy',
-//       description:
-//         'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et. Nam fringilla elit dapibus pellentesque cursus.',
-//       languages: ['HTML', 'CSS'],
-//       link: 'https://github.com/lernantino/run-buddy',
-//       feature: true,
-//       confirmAddProject: true
-//     },
-//     {
-//       name: 'Taskinator',
-//       description:
-//         'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et. Nam fringilla elit dapibus pellentesque cursus.',
-//       languages: ['JavaScript', 'HTML', 'CSS'],
-//       link: 'https://github.com/lernantino/taskinator',
-//       feature: true,
-//       confirmAddProject: true
-//     },
-//     {
-//       name: 'Taskmaster Pro',
-//       description:
-//         'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque. Nulla eget fringilla nulla. Integer gravida magna mi, id efficitur metus tempus et. Nam fringilla elit dapibus pellentesque cursus.',
-//       languages: ['JavaScript', 'jQuery', 'CSS', 'HTML', 'Bootstrap'],
-//       link: 'https://github.com/lernantino/taskmaster-pro',
-//       feature: false,
-//       confirmAddProject: true
-//     },
-//     {
-//       name: 'Robot Gladiators',
-//       description:
-//         'Duis consectetur nunc nunc. Morbi finibus non sapien nec pharetra. Fusce nec dignissim orci, ac interdum ipsum. Morbi mattis justo sed commodo pellentesque.',
-//       languages: ['JavaScript'],
-//       link: 'https://github.com/lernantino/robot-gladiators',
-//       feature: false,
-//       confirmAddProject: false
-//     }
-//   ]
-// };
 
+// *** Check if we are in testing envrioment *** //
 
-// const pageHTML = generatePage(mockData);
+const profileDataArgs = process.argv.slice(2);
 
+if (profileDataArgs.length === 0) {
 
-promptUser()
+    promptUser()
     .then(promptProjectTips)
     .then(answers => {
-        //console.log(answers)
+        console.log(answers)
         return generateReadMe(answers);
     })
     .then(readmeFile => {
@@ -176,3 +158,8 @@ promptUser()
     console.log(err);
     });
 
+} else if ( ( profileDataArgs.length > 0) && (profileDataArgs[0].toLowerCase() === "test") )  {
+    //console.log(profileDataArgs);
+    console.log(generateReadMe(testData))
+
+};
