@@ -65,7 +65,7 @@ const promptUser = () => {
           {
             type: 'input',
             name: 'commandTest',
-            message: 'What command should be run to run tests?'
+            message: 'What command should be run to run tests (output will be console.log)?'
           },
           {
             type: 'input',
