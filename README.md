@@ -45,7 +45,7 @@ https://github.com/esroleo/professional-readme-generator/issues/11
 ## 4. Features
 ### Make sure your gif is at ./assets/images/
 
-![caption](./assets/images/new-tab.gif)
+![caption](./assets/images/readme-gen-gif.gif)
 
 <a name="credits"></a>
 ## 5. Credits
