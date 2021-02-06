@@ -30,20 +30,44 @@ const generateReadMe = templateData => {
         //console.log(tips);
 
      const genereateTips = tips => {
+         console.log(tips)
 
-        return `
-          ${tips
-            .filter(({ tipConfirmation }) => tipConfirmation)
-            .map(({ addTip, addPicture }) => {
-              return `
-              ${addTip}
-              ${addPicture}
-              `;
-            })
-            .join('')}
-             `;
-            }
+return `
+${tips
+.filter(({ addTip, addPicture }) => addTip && addPicture)
+.map(({ addTip, addPicture }) => {
+return `
+###${addTip}
+![${addPicture}](./assets/images/${addPicture}.JPG?raw=true "${addPicture}")
+`;
+})
+}
+${tips
+.filter(({ addTip, addPicture }) => addTip && !addPicture)
+.map(({ addTip }) => {
+return `
+###${addTip}
+`;
+})
+}
+${tips
+.filter(({ addTip, addPicture }) => !addTip && addPicture)
+.map(({ addPicture }) => {
+return `
+![${addPicture}](./assets/images/${addPicture}.JPG?raw=true "${addPicture}")
+`;
+})
+}
+${tips
+.filter(({ addTip, addPicture }) => !addTip && !addPicture)
+.map(({ addTip,addPicture }) => {
+})
+}
+`;
+}
+         
     
+            
     return `
 
 ## ${projectTitle}
@@ -97,7 +121,6 @@ ${webAddress}
 <a name="usage"></a>
 ## 3. Usage Tips
 ${genereateTips(projects)}
-
 <a name="features"></a>
 ## 4. Features
 ### Make sure your gif is at ./assets/images/
