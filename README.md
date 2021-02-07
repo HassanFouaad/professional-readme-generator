@@ -77,6 +77,8 @@ https://github.com/esroleo/professional-readme-generator/
 ## 4. Features
 ### Make sure your gif is at ./assets/images/
 
+Final README.md will be available at folder /dist.
+
 ![caption](./assets/images/README.md-generator.gif)
 
 <a name="credits"></a>
@@ -86,10 +88,12 @@ Licenses information: https://opensource.org/licenses/osl-3.0
 
 Licenses badges contribution: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
-Thank you for working on this project Esteban Romero
+Thank you Esteban Romero for working on this project.
 
 <a name="licenses"></a>
 ## 6. Licenses
+
+Note: Any licence you choose will appear in this section.
 
 afl-3.0, apache-2.0, artistic-2.0, bsl-1.0, bsd-2-clause, bsd-3-clause, bsd-3-clause-clear, cc, cc0-1.0, cc-by-4.0, cc-by-sa-4.0, wtfpl, ecl-2.0, epl-1.0, epl-2.0, eupl-1.1, agpl-3.0, gpl, gpl-2.0, gpl-3.0, lgpl, lgpl-2.1, lgpl-3.0, isc, lppl-1.3c, ms-pl, mit, mpl-2.0, osl-3.0, postgresql, ofl-1.1, ncsa, unlicense, zlib
 
@@ -100,6 +104,8 @@ npm i inquirer
 
 <a name="commandTest"></a>
 ## 8. Test Command
+
+Note: output will be showin in console.log, you can copy paste the output into your favorite markup editor.
 
 node app.js test
 
