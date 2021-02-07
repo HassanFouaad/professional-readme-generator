@@ -13,6 +13,7 @@
 9. [ Contributing. ](#contributing)
 9. [ Questions. ](#questions)
 
+### For license description, click on the badge to get more information.
 [![License](https://img.shields.io/badge/License-AFL%203.0-blue.svg)](https://opensource.org/licenses/afl-3.0)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![License](https://img.shields.io/badge/License-Artistic%202.0-blue.svg)](https://opensource.org/licenses/artistic-2.0)
