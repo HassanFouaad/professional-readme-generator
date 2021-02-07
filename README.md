@@ -13,24 +13,24 @@
 9. [ Contributing. ](#contributing)
 9. [ Questions. ](#questions)
 
-afl-3.0"
-"[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
-"[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)"
-"bsl-1.0
+afl-3.0
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
+bsl-1.0
 
 <a name="desc"></a>
 ## 1. Description
 
 ### Top technology used:  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-test
+tet
 
 <a name="web-address"></a>
 ## 2. How to Get There
 
 ### Open your favorite web browser and enter the following web address to access.
 
-tes
+ste
 
 <a name="usage"></a>
 ## 3. Usage Tips
@@ -38,7 +38,7 @@ tes
 
 
 ###test
-![test](./assets/images/test.JPG?raw=true "test")
+![tes](./assets/images/tes.JPG?raw=true "tes")
 
 
 
@@ -50,7 +50,7 @@ tes
 ## 4. Features
 ### Make sure your gif is at ./assets/images/
 
-![caption](./assets/images/ttest.gif)
+![caption](./assets/images/test.gif)
 
 <a name="credits"></a>
 ## 5. Credits
@@ -77,12 +77,12 @@ tes
 <a name="contributing"></a>
 ## 9. Contributing
 
-ttes
+ttte
 
 <a name="questions"></a>
 ## 10. Questions
 
-Here is my profile GitHub Url: https://github.com/test
+Here is my profile GitHub Url: https://github.com/terst
 
 Email address: test
 
