@@ -123,6 +123,8 @@ const promptProjectTips = readMeAnswers => {
 
 const testData = 
 {
+    gitHubUser: 'esroleo',
+    emailAddress: "esroleo@gmail.com",
     projectTitle: 'Test Title',
     desc: 'Test Description',
     webAddress: 'https://github.com/esroleo/professional-readme-generator',
