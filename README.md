@@ -1,6 +1,6 @@
 
 
-## tet
+## tes
 
 1. [ Description. ](#desc)
 2. [ Web Address. ](#web-address)
@@ -40,19 +40,19 @@
 [![License](https://img.shields.io/badge/License-MSPL%20-blue.svg)](https://opensource.org/licenses/ms-pl)
 [![License](https://img.shields.io/badge/License-MIT%20-blue.svg)](https://opensource.org/licenses/mit)
 [![License](https://img.shields.io/badge/License-MPL%202.0-blue.svg)](https://opensource.org/licenses/mpl-2.0)
-[![License](https://img.shields.io/badge/License-OSL%203.0-blue.svg)](https://opensource.org/licenses/osl-3.0
-[![License](https://img.shields.io/badge/License-POSTGRESQL%20-blue.svg)](https://opensource.org/licenses/postgresql
-[![License](https://img.shields.io/badge/License-OFL%201.1-blue.svg)](https://opensource.org/licenses/ofl-1.1
-[![License](https://img.shields.io/badge/License-NCSA%20-blue.svg)](https://opensource.org/licenses/ncsa
-[![License](https://img.shields.io/badge/License-UNLICENSE%20-blue.svg)](https://opensource.org/licenses/unlicense
-[![License](https://img.shields.io/badge/License-ZLIB%20-blue.svg)](https://opensource.org/licenses/zlib
+[![License](https://img.shields.io/badge/License-OSL%203.0-blue.svg)](https://opensource.org/licenses/osl-3.0)
+[![License](https://img.shields.io/badge/License-POSTGRESQL%20-blue.svg)](https://opensource.org/licenses/postgresql)
+[![License](https://img.shields.io/badge/License-OFL%201.1-blue.svg)](https://opensource.org/licenses/ofl-1.1)
+[![License](https://img.shields.io/badge/License-NCSA%20-blue.svg)](https://opensource.org/licenses/ncsa)
+[![License](https://img.shields.io/badge/License-UNLICENSE%20-blue.svg)](https://opensource.org/licenses/unlicense)
+[![License](https://img.shields.io/badge/License-ZLIB%20-blue.svg)](https://opensource.org/licenses/zlib)
 
 <a name="desc"></a>
 ## 1. Description
 
 ### Top technology used:  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-test
+ttse
 
 <a name="web-address"></a>
 ## 2. How to Get There
@@ -66,7 +66,7 @@ tes
 
 
 
-###tetst
+###tets
 ![test](./assets/images/test.JPG?raw=true "test")
 
 
@@ -79,7 +79,7 @@ tes
 ## 4. Features
 ### Make sure your gif is at ./assets/images/
 
-![caption](./assets/images/ttset.gif)
+![caption](./assets/images/test.gif)
 
 <a name="credits"></a>
 ## 5. Credits
@@ -106,7 +106,7 @@ test
 <a name="contributing"></a>
 ## 9. Contributing
 
-tse
+tset
 
 <a name="questions"></a>
 ## 10. Questions
