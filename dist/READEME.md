@@ -1,6 +1,6 @@
 
 
-## test
+## Professional README.md generator
 
 1. [ Description. ](#desc)
 2. [ Web Address. ](#web-address)
@@ -52,19 +52,25 @@
 
 ### Top technology used:  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-test
+This project is to create a README.md file
 
 <a name="web-address"></a>
 ## 2. How to Get There
 
 ### Open your favorite web browser and enter the following web address to access.
 
-test
+https://github.com/esroleo/professional-readme-generator/blob/main/dist/READEME.md
 
 <a name="usage"></a>
 ## 3. Usage Tips
 
 
+
+###sample step
+![sample-test](./assets/images/sample-test.JPG?raw=true "sample-test")
+
+###sample step
+![sample-test](./assets/images/sample-test.JPG?raw=true "sample-test")
 
 
 
@@ -76,14 +82,15 @@ test
 ## 4. Features
 ### Make sure your gif is at ./assets/images/
 
-![caption](./assets/images/test.gif)
+![caption](./assets/images/readme-gen-gif.gif)
 
 <a name="credits"></a>
 ## 5. Credits
 
-Credits to licenses badges contribution: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+Licenses information: https://opensource.org/licenses/osl-3.0
+Licenses badges contribution: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
-test
+Thank you for working on this project Esteban Romero
 
 <a name="licenses"></a>
 ## 6. Licenses
@@ -93,22 +100,22 @@ afl-3.0, apache-2.0, artistic-2.0, bsl-1.0, bsd-2-clause, bsd-3-clause, bsd-3-cl
 <a name="commandInstall"></a>
 ## 7. Install Command
 
-
+npm i inquirer
 
 <a name="commandTest"></a>
 ## 8. Test Command
 
-
+node app.js test
 
 <a name="contributing"></a>
 ## 9. Contributing
 
-
+Visit and enjoy
 
 <a name="questions"></a>
 ## 10. Questions
 
-Here is my profile GitHub Url: https://github.com/test
+Here is my profile GitHub Url: https://github.com/esroleo
 
-Email address: test
+Email address: esroleo@gmail.com
 
