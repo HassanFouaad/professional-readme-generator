@@ -1,6 +1,6 @@
 
 
-## tset
+## test
 
 1. [ Description. ](#desc)
 2. [ Web Address. ](#web-address)
@@ -17,7 +17,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![License](https://img.shields.io/badge/License-Artistic%202.0-blue.svg)](https://opensource.org/licenses/artistic-2.0)
 [![License](https://img.shields.io/badge/License-BSL%201.0-blue.svg)](https://opensource.org/licenses/bsl-1.0)
-[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+[![License](https://img.shields.io/badge/License-BSD%202--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![License](https://img.shields.io/badge/License-BSD%203--ClauseClear-blue.svg)](https://opensource.org/licenses/bsd-3-clause-clear)
 [![License](https://img.shields.io/badge/License-CC%20-blue.svg)](https://opensource.org/licenses/cc)
@@ -59,15 +59,12 @@ test
 
 ### Open your favorite web browser and enter the following web address to access.
 
-tesrt
+test
 
 <a name="usage"></a>
 ## 3. Usage Tips
 
 
-
-###ttes
-![ttes](./assets/images/ttes.JPG?raw=true "ttes")
 
 
 
@@ -96,17 +93,17 @@ afl-3.0, apache-2.0, artistic-2.0, bsl-1.0, bsd-2-clause, bsd-3-clause, bsd-3-cl
 <a name="commandInstall"></a>
 ## 7. Install Command
 
-test
+
 
 <a name="commandTest"></a>
 ## 8. Test Command
 
-test
+
 
 <a name="contributing"></a>
 ## 9. Contributing
 
-tes
+
 
 <a name="questions"></a>
 ## 10. Questions
