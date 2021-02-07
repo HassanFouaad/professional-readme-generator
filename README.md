@@ -66,24 +66,17 @@ https://github.com/esroleo/professional-readme-generator/blob/main/dist/READEME.
 ## 3. Usage Tips
 
 
-
 ###sample step
 ![sample-step](./assets/images/sample-step.JPG?raw=true "sample-step")
 
 ###sample step
 ![sample-step](./assets/images/sample-step.JPG?raw=true "sample-step")
-
-
-
-
-
-
 
 <a name="features"></a>
 ## 4. Features
 ### Make sure your gif is at ./assets/images/
 
-![caption](./assets/images/readme-gen-gif.gif)
+![caption](./assets/images/README.md-generator.gif)
 
 <a name="credits"></a>
 ## 5. Credits
