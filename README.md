@@ -61,7 +61,7 @@ This project is to create a README.md file
 
 ### Open your favorite web browser and enter the following web address to access.
 
-https://github.com/esroleo/professional-readme-generator/blob/main/dist/READEME.md
+https://github.com/esroleo/professional-readme-generator/
 
 <a name="usage"></a>
 ## 3. Usage Tips
