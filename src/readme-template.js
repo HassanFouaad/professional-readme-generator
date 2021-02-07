@@ -34,125 +34,124 @@ const generateReadMe = templateData => {
 
     const licensesBadges = licensesArr => {
 
-        const licensesValues = ['afl-3.0', 'apache-2.0', 'artistic-2.0', 'bsl-1.0', 'bsd-2-clause', 'bsd-3-clause', 
-        'bsd-3-clause-clear', 'cc', 'cc0-1.0', 'cc-by-4.0', 'cc-by-sa-4.0', 'wtfpl', 'ecl-2.0', 'epl-1.0', 'epl-2.0', 
-        'eupl-1.1', 'agpl-3.0', 'gpl', 'gpl-2.0', 'gpl-3.0', 'lgpl', 'lgpl-2.1', 'lgpl-3.0', 'isc', 'lppl-1.3c', 'ms-pl', 
-        'mit', 'mpl-2.0', 'osl-3.0', 'postgresql', 'ofl-1.1', 'ncsa', 'unlicense', 'zlib']
-        let outputLicenses = "";
+        // const licensesValues = ['afl-3.0', 'apache-2.0', 'artistic-2.0', 'bsl-1.0', 'bsd-2-clause', 'bsd-3-clause', 
+        // 'bsd-3-clause-clear', 'cc', 'cc0-1.0', 'cc-by-4.0', 'cc-by-sa-4.0', 'wtfpl', 'ecl-2.0', 'epl-1.0', 'epl-2.0', 
+        // 'eupl-1.1', 'agpl-3.0', 'gpl', 'gpl-2.0', 'gpl-3.0', 'lgpl', 'lgpl-2.1', 'lgpl-3.0', 'isc', 'lppl-1.3c', 'ms-pl', 
+        // 'mit', 'mpl-2.0', 'osl-3.0', 'postgresql', 'ofl-1.1', 'ncsa', 'unlicense', 'zlib']
+        let outputLicenses = [];
 
-        licensesArr.forEach(licenseInputs => {
-            console.log("loop through recieved license array" + licenseInputs);
-            switch(licenseInputs) {
+
+        for (i = 0; i < licensesArr.length; i++) {
+            //console.log(licensesArr[i]);
+
+            switch(licensesArr[i]) {
                 case "afl-3.0":
-                    outputLicenses += "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)" + "\n";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-AFL%203.0-blue.svg)](https://opensource.org/licenses/afl-3.0)");
                     break;
                 case "apache-2.0":
-                    outputLicenses += "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)" + "\n";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)");
                     break;
                 case "artistic-2.0":
-                    outputLicenses += "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)" + "\n";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-Artistic%202.0-blue.svg)](https://opensource.org/licenses/artistic-2.0)");
                     break;
                 case "bsl-1.0":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-BSL%201.0-blue.svg)](https://opensource.org/licenses/bsl-1.0)");
                     break;
                 case "bsd-2-clause":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
-                    break;
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-BSD%202--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)");
+                   break;
                 case "bsd-3-clause":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)");
                     break;
                 case "bsd-3-clause-clear":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-BSD%203--ClauseClear-blue.svg)](https://opensource.org/licenses/bsd-3-clause-clear)");
                     break;
                 case "cc":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-CC%20-blue.svg)](https://opensource.org/licenses/cc)");
                     break;
                 case "cc0-1.0":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-CC0%201.0-blue.svg)](http://creativecommons.org/publicdomain/zero/1.0/)");
                     break;
                 case "cc-by-4.0":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)");
                     break;
                 case "wtfpl":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-WTFPL-blue.svg)](http://www.wtfpl.net/about/)");
                     break;
                 case "ecl-2.0":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-ECL%202.0-blue.svg)](https://opensource.org/licenses/ecl-2.0)");
                     break;
                 case "epl-1.0":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-ECL%201.0-blue.svg)](https://opensource.org/licenses/epl-1.0)");
                     break;
                 case "epl-2.0":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-EPL%202.0-blue.svg)](https://opensource.org/licenses/epl-2.0)");
                     break;
                 case "eupl-1.1":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-EUPL%201.1-blue.svg)](https://opensource.org/licenses/eupl-1.1)");
                     break;
                 case "agpl-3.0":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](https://opensource.org/licenses/agpl-3.0)");
                     break;
                 case "gpl":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-GPL%20-blue.svg)](https://opensource.org/licenses/gpl)");
                     break;
                 case "gpl-2.0":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-GPL%202.0-blue.svg)](https://opensource.org/licenses/gpl-2.0)");
                     break;
                 case "gpl-3.0":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/gpl-3.0)");
                     break;
                 case "lgpl":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-LGPL%20-blue.svg)](https://opensource.org/licenses/lgpl)");
                     break;
                 case "lgpl-2.1":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-LGPL%202.1-blue.svg)](https://opensource.org/licenses/lgpl-2.1)");
                     break;
                 case "lgpl-3.0":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-LGPL%203.0-blue.svg)](https://opensource.org/licenses/lgpl-3.0)");
                     break;
                 case "isc":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-ISC%20-blue.svg)](https://opensource.org/licenses/isc)");
                     break;
                 case "lppl-1.3c":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-IPPL%201.3c-blue.svg)](https://opensource.org/licenses/lppl-1.3c)");
                     break;
                 case "ms-pl":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-MSPL%20-blue.svg)](https://opensource.org/licenses/ms-pl)");
                     break;
                 case "mit":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-MIT%20-blue.svg)](https://opensource.org/licenses/mit)");
                     break;
                 case "mpl-2.0":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-MPL%202.0-blue.svg)](https://opensource.org/licenses/mpl-2.0)");
                     break;
                 case "osl-3.0":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-OSL%203.0-blue.svg)](https://opensource.org/licenses/osl-3.0)");
                     break;
                 case "postgresql":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-POSTGRESQL%20-blue.svg)](https://opensource.org/licenses/postgresql)");
                     break;
                 case "ofl-1.1":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-OFL%201.1-blue.svg)](https://opensource.org/licenses/ofl-1.1)");
                     break;
                 case "ncsa":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-NCSA%20-blue.svg)](https://opensource.org/licenses/ncsa)");
                     break;
                 case "unlicense":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-UNLICENSE%20-blue.svg)](https://opensource.org/licenses/unlicense)");
                     break;
                 case "zlib":
-                    outputLicenses += "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)]";
+                    outputLicenses.push("[![License](https://img.shields.io/badge/License-ZLIB%20-blue.svg)](https://opensource.org/licenses/zlib)");
                     break;
                 default:
                     // Do nothing - no selected licenses
-            }
-          });
-
-          //console.log("for each item lopped\n" + outputLicenses)
-
-          return outputLicenses;
-
-        
-
+            };
+        };
+        //console.log(outputLicenses);
+        //console.log(outputLicenses.join('"\n"'));
+        //${licenses.join(', ')}
+       return outputLicenses.join('\n')
     };
 
      const genereateTips = tips => {
@@ -216,8 +215,6 @@ ${licensesBadges(licenses)}
 
 ${desc}
 
-
-
 <a name="web-address"></a>
 ## 2. How to Get There
 
@@ -239,9 +236,9 @@ ${genereateTips(projects)}
 <a name="credits"></a>
 ## 5. Credits
 
-${credits}
-
 Credits to licenses badges contribution: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+
+${credits}
 
 <a name="licenses"></a>
 ## 6. Licenses
