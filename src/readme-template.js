@@ -206,6 +206,7 @@ ${tips
 9. [ Contributing. ](#contributing)
 9. [ Questions. ](#questions)
 
+### For license description, click on the badge to get more information.
 ${licensesBadges(licenses)}
 
 <a name="desc"></a>

@@ -52,14 +52,14 @@
 
 ### Top technology used:  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-This project is to create a README.md file
+This project will allow you to create a README.md file
 
 <a name="web-address"></a>
 ## 2. How to Get There
 
 ### Open your favorite web browser and enter the following web address to access.
 
-https://github.com/esroleo/professional-readme-generator/blob/main/dist/READEME.md
+https://github.com/esroleo/professional-readme-generator/
 
 <a name="usage"></a>
 ## 3. Usage Tips
@@ -67,10 +67,10 @@ https://github.com/esroleo/professional-readme-generator/blob/main/dist/READEME.
 
 
 ###sample step
-![sample-test](./assets/images/sample-test.JPG?raw=true "sample-test")
+![sample-step](./assets/images/sample-step.JPG?raw=true "sample-step")
 
 ###sample step
-![sample-test](./assets/images/sample-test.JPG?raw=true "sample-test")
+![sample-step](./assets/images/sample-step.JPG?raw=true "sample-step")
 
 
 
@@ -90,7 +90,7 @@ https://github.com/esroleo/professional-readme-generator/blob/main/dist/READEME.
 Licenses information: https://opensource.org/licenses/osl-3.0
 Licenses badges contribution: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
-Thank you for working on this project Esteban Romero
+Visit and Enjoy and thanks for watching
 
 <a name="licenses"></a>
 ## 6. Licenses
@@ -110,12 +110,14 @@ node app.js test
 <a name="contributing"></a>
 ## 9. Contributing
 
-Visit and enjoy
+Visit and Enjoy
 
 <a name="questions"></a>
 ## 10. Questions
 
-Here is my profile GitHub Url: https://github.com/esroleo
+Please reach out to me
+
+GitHub Url: https://github.com/esroleo
 
 Email address: esroleo@gmail.com
 
