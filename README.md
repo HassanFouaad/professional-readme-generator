@@ -67,10 +67,10 @@ https://github.com/esroleo/professional-readme-generator/blob/main/dist/READEME.
 
 
 ###sample step
-![sample-test](./assets/images/sample-test.JPG?raw=true "sample-test")
+![sample-step](./assets/images/sample-test.JPG?raw=true "sample-step")
 
 ###sample step
-![sample-test](./assets/images/sample-test.JPG?raw=true "sample-test")
+![sample-step](./assets/images/sample-test.JPG?raw=true "sample-step")
 
 
 
