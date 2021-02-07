@@ -264,7 +264,9 @@ ${contrDesc}
 <a name="questions"></a>
 ## 10. Questions
 
-Here is my profile GitHub Url: https://github.com/${gitHubUser}
+Please reach out to me
+
+GitHub Url: https://github.com/${gitHubUser}
 
 Email address: ${emailAddress}
 
