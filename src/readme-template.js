@@ -230,7 +230,6 @@ ${genereateTips(projects)}
 
 <a name="features"></a>
 ## 4. Features
-### Make sure your gif is at ./assets/images/
 
 ![caption](./assets/images/${featuresGif}.gif)
 
@@ -273,8 +272,6 @@ Email address: ${emailAddress}
 
 `;
 };
-
-
 
 
 module.exports = templateData => {
