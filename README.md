@@ -1,6 +1,6 @@
 
 
-## tes
+## tset
 
 1. [ Description. ](#desc)
 2. [ Web Address. ](#web-address)
@@ -21,9 +21,9 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![License](https://img.shields.io/badge/License-BSD%203--ClauseClear-blue.svg)](https://opensource.org/licenses/bsd-3-clause-clear)
 [![License](https://img.shields.io/badge/License-CC%20-blue.svg)](https://opensource.org/licenses/cc)
-[![License](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
-[![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![License](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+[![License](https://img.shields.io/badge/License-CC0%201.0-blue.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License](https://img.shields.io/badge/License-WTFPL-blue.svg)](http://www.wtfpl.net/about/)
 [![License](https://img.shields.io/badge/License-ECL%202.0-blue.svg)](https://opensource.org/licenses/ecl-2.0)
 [![License](https://img.shields.io/badge/License-ECL%201.0-blue.svg)](https://opensource.org/licenses/epl-1.0)
 [![License](https://img.shields.io/badge/License-EPL%202.0-blue.svg)](https://opensource.org/licenses/epl-2.0)
@@ -52,22 +52,22 @@
 
 ### Top technology used:  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-ttse
+test
 
 <a name="web-address"></a>
 ## 2. How to Get There
 
 ### Open your favorite web browser and enter the following web address to access.
 
-tes
+tesrt
 
 <a name="usage"></a>
 ## 3. Usage Tips
 
 
 
-###tets
-![test](./assets/images/test.JPG?raw=true "test")
+###ttes
+![ttes](./assets/images/ttes.JPG?raw=true "ttes")
 
 
 
@@ -106,7 +106,7 @@ test
 <a name="contributing"></a>
 ## 9. Contributing
 
-tset
+tes
 
 <a name="questions"></a>
 ## 10. Questions
