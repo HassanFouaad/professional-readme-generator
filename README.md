@@ -13,9 +13,7 @@
 9. [ Contributing. ](#contributing)
 9. [ Questions. ](#questions)
 
-[![License](https://img.shields.io/badge/AFL%203.0-blue.svg)](https://opensource.org/licenses/afl-3.0)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![License](https://img.shields.io/badge/Atistic%202.0-blue.svg)](https://opensource.org/licenses/artistic-2.0)
+[![License](https://img.shields.io/badge/License-ECL%202.0-blue.svg)](https://opensource.org/licenses/ecl-2.0)
 
 <a name="desc"></a>
 ## 1. Description
@@ -36,6 +34,9 @@ test
 
 
 
+###ste
+![stset](./assets/images/stset.JPG?raw=true "stset")
+
 
 
 
@@ -53,32 +54,32 @@ test
 
 Credits to licenses badges contribution: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
-tes
+tet
 
 <a name="licenses"></a>
 ## 6. Licenses
 
-afl-3.0, apache-2.0, artistic-2.0
+ecl-2.0
 
 <a name="commandInstall"></a>
 ## 7. Install Command
 
-tets
+test
 
 <a name="commandTest"></a>
 ## 8. Test Command
 
-
+tes
 
 <a name="contributing"></a>
 ## 9. Contributing
 
-
+tset
 
 <a name="questions"></a>
 ## 10. Questions
 
 Here is my profile GitHub Url: https://github.com/test
 
-Email address: teset
+Email address: test
 
