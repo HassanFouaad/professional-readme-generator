@@ -236,7 +236,8 @@ ${genereateTips(projects)}
 <a name="credits"></a>
 ## 5. Credits
 
-Credits to licenses badges contribution: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+Licenses information: https://opensource.org/licenses/osl-3.0
+Licenses badges contribution: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
 ${credits}
 
